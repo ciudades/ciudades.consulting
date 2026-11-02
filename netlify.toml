@@ -1,0 +1,4 @@
+# Next 15 requires Node >= 18.18; pin the build Node version for Netlify
+# (the site was last built in 2022 on an older default image).
+[build.environment]
+  NODE_VERSION = "22"
