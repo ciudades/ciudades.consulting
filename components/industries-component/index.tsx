@@ -1,5 +1,6 @@
 import { IIndustries } from '../../fixtures/industries.fixture'
-import Image from 'next/image'
+// next/legacy/image keeps Next 12's intrinsic wrapper (centered layout)
+import Image from 'next/legacy/image'
 import styles from './industries.module.scss'
 
 export const IndustriesTitle = ({ title = '' }) => {

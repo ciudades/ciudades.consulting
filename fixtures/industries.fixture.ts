@@ -1,4 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
+import type { StaticImageData } from 'next/image'
 import ImgIndustries01 from '../assets/industries-assets/industries01.jpg'
 import ImgIndustries02 from '../assets/industries-assets/industries02.jpg'
 import ImgIndustries03 from '../assets/industries-assets/industries03.jpg'

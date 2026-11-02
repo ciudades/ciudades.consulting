@@ -1,0 +1,13 @@
+# Next 15 requires Node >= 18.18 and Netlify's Next.js Runtime v5.
+# The UI-installed @netlify/plugin-nextjs (v3.9.2) and publish dir ("out")
+# predate Next 13; the repo-declared plugin and publish dir below take
+# precedence over the UI settings.
+[build]
+  command = "yarn build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
