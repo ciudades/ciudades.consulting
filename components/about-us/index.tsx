@@ -18,16 +18,16 @@ function AboutUs({ aboutUsTitle, aboutUsDescription }: IAboutUs): JSX.Element {
         </div>
         <div className={styles["aboutus-images-right"]}>
           <div className={styles.points}>
-            <Image src={Points} width={126} height={206} />
+            <Image src={Points} width={126} height={206} alt="" />
           </div>
           <div className={styles['img-right1']}>
-            <Image src={ImgRight1} width={265} height={265} />
+            <Image src={ImgRight1} width={265} height={265} alt="" />
           </div>
           <div className={styles['img-right2']}>
-            <Image src={ImgRight2} width={265} height={265}  />
+            <Image src={ImgRight2} width={265} height={265} alt="" />
           </div>
           <div className={styles['img-right3']}>
-            <Image src={ImgRight3} width={265} height={265}  />
+            <Image src={ImgRight3} width={265} height={265} alt="" />
           </div>
         </div>
       </div>
